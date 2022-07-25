@@ -1,8 +1,9 @@
 import os
 class Stack:
     def __init__(self, size):
-        self.items = [None]*size
+        
         self.size = size
+        self.items = [None]*size
         self.top=-1
 
     def is_empty(self):
@@ -16,8 +17,8 @@ class Stack:
         if not self.is_full():
             
             self.top+=1
-            self.data=int(input())
-            self.items[self.top]=self.data
+            data=int(input())
+            self.items[self.top]=data
 
     def pop(self):
         if not self.is_empty():
