@@ -16,8 +16,8 @@ class Stack:
         if not self.is_full():
             
             self.top+=1
-            x=int(input())
-            self.items[self.top]=x
+            data=int(input())
+            self.items[self.top]=data
 
     def pop(self):
         if not self.is_empty():
