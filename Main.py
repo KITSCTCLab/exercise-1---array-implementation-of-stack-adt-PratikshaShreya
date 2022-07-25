@@ -21,8 +21,8 @@ class Stack:
 
     def pop(self):
         if not self.is_empty():
-            
             self.top-=1
+            
 
     def status(self):
        
