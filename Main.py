@@ -17,7 +17,7 @@ class Stack:
         if not self.is_full():
             
             self.top+=1
-            data=int(input())
+            
             self.items[self.top]=data
 
     def pop(self):
